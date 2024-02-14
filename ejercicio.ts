@@ -57,9 +57,9 @@ function mostrarDatos(personas: Persona[]) {
 function mayorOmenor(personass: Persona[]) {
     for (let i = 0; i < personass.length; i++) {
         if (personas[i].edad > 18) {
-            console.log("ES MAYOR"+personass[i].edad,personass[i].nombre)
+            console.log("ES MAYOR: "+personass[i].edad,personass[i].nombre)
         } else {
-            console.log("Es MENOR de edad")
+            console.log("Es MENOR de edad: "+personass[i].nombre)
         }
     }
 }
